@@ -1,0 +1,666 @@
+<%- include ('./partials/configure_header.ejs') %>
+<%- include ('./partials/header.ejs') %>
+<body>
+   <!--Inicio (lateral e princial) -->
+   <div class="container-fluid">
+    <div class="row">
+      <!--Inicio coluna lateral esquerda-->
+      <div class="background-lateral col-lg-3">
+        <div id="dados-lateral" class="row mt-2 mb-2">
+          <!--Inicio container pontuações e dados pessoais-->
+          <div class="col-md-10 mx-auto background-banner-lateral">
+            <p class="funcao">Empregado</p>
+            <p class="nome">FULANO DE TAL</p>
+            <p class="matricula">Matricula XXXX-XX</p>
+
+            <!--Inicio informações/pontuacoes lateral-->
+            <ul class="lista-personalizada">
+              <li>
+                <div class="row">
+                  <div class="col-2" style="margin: auto">
+                    <img src="imagens/icon.png" style="width: 35px" />
+                  </div>
+                  <div class="col-7" style="padding: 0px">
+                    Assiduidade
+                    <img
+                      src="imagens/interrogacao.png"
+                      class="ajustes-interrogacao"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-content="Lorem Ipsum."
+                      data-placement="right"
+                    />
+                    <div
+                      class="progress"
+                      style="background: #9e9e9e; border-radius: 0"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                        role="progressbar"
+                        style="width: 100%"
+                        aria-valuenow="100"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <p class="texto-numero-lateral" style="padding-top: 19px">
+                      10/10
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-2" style="margin: auto">
+                    <img src="imagens/icon.png" style="width: 35px" />
+                  </div>
+                  <div class="col-7" style="padding: 0px">
+                    Pontualidade
+                    <img
+                      src="imagens/interrogacao.png"
+                      class="ajustes-interrogacao"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-content="Lorem Ipsum."
+                      data-placement="right"
+                    />
+                    <div
+                      class="progress"
+                      style="background: #9e9e9e; border-radius: 0"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                        role="progressbar"
+                        style="width: 70%"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <p class="texto-numero-lateral" style="padding-top: 19px">
+                      07/10
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-2" style="margin: auto">
+                    <img src="imagens/icon.png" style="width: 35px" />
+                  </div>
+                  <div class="col-7" style="padding: 0px">
+                    Iniciativa
+                    <img
+                      src="imagens/interrogacao.png"
+                      class="ajustes-interrogacao"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-content="Lorem Ipsum."
+                      data-placement="right"
+                    />
+                    <div
+                      class="progress"
+                      style="background: #9e9e9e; border-radius: 0"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                        role="progressbar"
+                        style="width: 50%"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <p class="texto-numero-lateral" style="padding-top: 19px">
+                      05/10
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-2" style="margin: auto">
+                    <img src="imagens/icon.png" style="width: 35px" />
+                  </div>
+                  <div class="col-7" style="padding: 0px">
+                    Disciplina
+                    <img
+                      src="imagens/interrogacao.png"
+                      class="ajustes-interrogacao"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-content="Lorem Ipsum."
+                      data-placement="right"
+                    />
+                    <div
+                      class="progress"
+                      style="background: #9e9e9e; border-radius: 0"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                        role="progressbar"
+                        style="width: 90%"
+                        aria-valuenow="90"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <p class="texto-numero-lateral" style="padding-top: 19px">
+                      09/10
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-2" style="margin: auto">
+                    <img src="imagens/icon.png" style="width: 35px" />
+                  </div>
+                  <div class="col-7" style="padding: 0px">
+                    Responsabilidade
+                    <img
+                      src="imagens/interrogacao.png"
+                      class="ajustes-interrogacao"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-content="Lorem Ipsum."
+                      data-placement="right"
+                    />
+                    <div
+                      class="progress"
+                      style="background: #9e9e9e; border-radius: 0"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                        role="progressbar"
+                        style="width: 30%"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <p class="texto-numero-lateral" style="padding-top: 19px">
+                      03/10
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-2" style="margin: auto">
+                    <img src="imagens/icon.png" style="width: 35px" />
+                  </div>
+                  <div class="col-7" style="padding: 0px">
+                    Qualidade do trabalho
+                    <img
+                      src="imagens/interrogacao.png"
+                      class="ajustes-interrogacao"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-content="Lorem Ipsum."
+                      data-placement="right"
+                    />
+                    <div
+                      class="progress"
+                      style="background: #9e9e9e; border-radius: 0"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                        role="progressbar"
+                        style="width: 100%"
+                        aria-valuenow="100"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <p class="texto-numero-lateral" style="padding-top: 19px">
+                      10/10
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-2" style="margin: auto">
+                    <img src="imagens/icon.png" style="width: 35px" />
+                  </div>
+                  <div class="col-7" style="padding: 0px">
+                    Aperfeiçoamento
+                    <img
+                      src="imagens/interrogacao.png"
+                      class="ajustes-interrogacao"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-content="Lorem Ipsum."
+                      data-placement="right"
+                    />
+                    <div
+                      class="progress"
+                      style="background: #9e9e9e; border-radius: 0"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                        role="progressbar"
+                        style="width: 100%"
+                        aria-valuenow="100"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <p class="texto-numero-lateral" style="padding-top: 19px">
+                      10/10
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!--Fim informações/pontuacoes lateral-->
+          </div>
+          <!--Fim container pontuações e dados pessoais-->
+
+          <div class="col-md-10 mx-auto ajustes-fonte-lateral">
+            <p>
+              <img src="imagens/regulamento.png" /><a
+                href=""
+                data-toggle="modal"
+                data-target="#modalregulamento"
+                >Regulamento</a
+              >
+            </p>
+            <p>
+              <img src="imagens/creditos.png" /><a
+                href=""
+                data-toggle="modal"
+                data-target="#modalcredito"
+                >Créditos</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Fim coluna lateral esquerda-->
+
+      <!--Inicio container principal-->
+      <div class="background-banner col-lg-9">
+        <div class="row align-items-center mx-auto">
+          <!--Inicio container informacoes de progresso-->
+          <div
+            class="col-12 background-banner-principal mx-auto"
+            style="height: 135px"
+            ;
+          >
+            <div
+              style="
+                position: relative;
+                margin: auto;
+                width: 90%;
+                height: 6px;
+              "
+            >
+              <input
+                type="range"
+                class="position-relative estilo-range"
+                id="myRange"
+                max="3"
+                min="1"
+                style="width: 60%; z-index: 2"
+              />
+            </div>
+
+            <!--Inicio informações primeiro banner-->
+            <div id="infospc">
+              <div class="row mx-auto">
+                <div class="col-3 mx-auto" style="z-index: 1">
+                  <img class="index" src="imagens/info1.png" />
+                  <div class="informacoes-banner-1">
+                    <strong>Ingresso:</strong>
+                  </div>
+                  <div class="informacoes-banner-1">
+                    <strong><em>18/01/2022:</em></strong>
+                  </div>
+                </div>
+                <div class="col-3 mx-auto" style="z-index: 1">
+                  <img class="index" src="imagens/info2.png" />
+                  <div class="informacoes-banner-1">
+                    <strong>1°&nbspAvaliação:</strong>
+                  </div>
+                  <div class="informacoes-banner-1">
+                    <strong><em>18/01/2023:</em></strong>
+                  </div>
+                </div>
+                <div class="col-3 mx-auto" style="z-index: 1">
+                  <img class="index" src="imagens/info3e4.png" />
+                  <div class="informacoes-banner-1">
+                    <strong>2°&nbspAvaliação:</strong>
+                  </div>
+                  <div class="informacoes-banner-1">
+                    <strong><em>18/01/2024:</em></strong>
+                  </div>
+                </div>
+                <div class="col-3 mx-auto" style="z-index: 1">
+                  <img class="index" src="imagens/info3e4.png" />
+                  <div class="informacoes-banner-1">
+                    <strong>3°&nbspAvaliação:</strong>
+                  </div>
+                  <div class="informacoes-banner-1">
+                    <strong><em>18/01/2024:</em></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="row mx-auto">
+                <div class="col-9 mx-auto barra"></div>
+              </div>
+              <div class="row mx-auto" id="imagem-avaliacao">
+                <div class="col-3 mx-auto"></div>
+                <!--Inicio imagem ver avaliação-->
+                <div class="col-3 mx-auto">
+                  <a href="" data-toggle="modal" data-target="#modalavaliacao"
+                    ><img
+                      src="imagens/veravaliacao.png"
+                      class="formata-imagem-avaliacao"
+                  /></a>
+                </div>
+                <!--Fim imagem ver avaliação-->
+                <div class="col-3 mx-auto"></div>
+                <div class="col-3 mx-auto"></div>
+              </div>
+              <!--Inicio mascara imagem ver avaliacao-->
+              <div class="row mx-auto" id="mascara-imagem-avaliacao">
+                <div class="col-9 mx-auto">
+                  <a href="" data-toggle="modal" data-target="#modalavaliacao"
+                    ><img
+                      src="imagens/veravaliacao.png"
+                      class="formata-imagem-avaliacao"
+                      style="margin-top: 15px"
+                  /></a>
+                </div>
+              </div>
+              <!--Fim mascara imagem ver avaliacao-->
+            </div>
+            <!--Fim informações primeiro banner-->
+          </div>
+          <!--Fim container informacoes de progresso-->
+
+          <div class="col-12 avaliacao mx-auto">
+            <h4 class="text-uppercase">
+              1° Avaliação
+              <span class="icon-avaliacao">
+                <a
+                  data-toggle="collapse"
+                  href="#tabela-dados"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                  >▼</a
+                >
+                <!--collapse-->
+              </span>
+            </h4>
+          </div>
+
+          <div>
+            <h5>Período Avaliatório: 18/01/2022 - 18/01/2023</h5>
+            <h5>
+              Avalidor: <span class="text-uppercase">Beltrano de tal</span>
+            </h5>
+          </div>
+
+          <!-- Inicio tabela -->
+          <div class="container d-flex justify-content-center">
+            <!--obs apagar a de baixo e descomentar essa, caso queira tirar o collapse>-->
+            <div
+              class="transicao-tabela collapse"
+              id="tabela-dados"
+              style="width: 600px"
+            >
+              <!--<div id="tabela-dados"> Div sem collapse-->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Quesito</th>
+                    <th>Nota</th>
+                    <th>Comentário</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Assiduidade</td>
+                    <td class="text-center">10</td>
+                    <td class="td3 text-center">
+                      <img
+                        src="imagens/lupa.png"
+                        alt="lupa"
+                        data-toggle="popover"
+                        title="Comentários"
+                        data-content="Sem comentários até o momento!"
+                      />
+                      Ver comentário
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1">Pontualidade</td>
+                    <td class="text-center">07</td>
+                    <td class="td3 text-center">
+                      <img
+                        src="imagens/lupa.png"
+                        alt="lupa"
+                        data-toggle="popover"
+                        title="Comentários"
+                        data-content="Sem comentários até o momento!"
+                      />
+                      Ver comentário
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1">Iniciativa</td>
+                    <td class="text-center">05</td>
+                    <td class="td3 text-center">
+                      <img
+                        src="imagens/lupa.png"
+                        alt="lupa"
+                        data-toggle="popover"
+                        title="Comentários"
+                        data-content="Sem comentários até o momento!"
+                      />
+                      Ver comentário
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1">Disciplina</td>
+                    <td class="text-center">09</td>
+                    <td class="td3 text-center">
+                      <img
+                        src="imagens/lupa.png"
+                        alt="lupa"
+                        data-toggle="popover"
+                        title="Comentários"
+                        data-content="Sem comentários até o momento!"
+                      />
+                      Ver comentário
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1">Responsabilidade</td>
+                    <td class="text-center">03</td>
+                    <td class="td3 text-center">
+                      <img
+                        src="imagens/lupa.png"
+                        alt="lupa"
+                        data-toggle="popover"
+                        title="Comentários"
+                        data-content="Sem comentários até o momento!"
+                      />
+                      Ver comentário
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1">Qualidade do Trabalho</td>
+                    <td class="text-center">10</td>
+                    <td class="td3 text-center">
+                      <img
+                        src="imagens/lupa.png"
+                        alt="lupa"
+                        data-toggle="popover"
+                        title="Comentários"
+                        data-content="Sem comentários até o momento!"
+                      />
+                      Ver comentário
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1">Aperfeiçoamento</td>
+                    <td class="text-center">10</td>
+                    <td class="td3 text-center">
+                      <img
+                        src="imagens/lupa.png"
+                        alt="lupa"
+                        data-toggle="popover"
+                        title="Comentários"
+                        data-content="Sem comentários até o momento!"
+                      />
+                      Ver comentário
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--</div> Div sem collapse -->
+            </div>
+            <!--Div com collapse-->
+
+            <!--Fim tabela-->
+          </div>
+        </div>
+      </div>
+      <!--Fim container principal-->
+    </div>
+  </div>
+  <!--Fim (lateral e princial)-->
+
+  <!-- Inicio Modal Regulamento -->
+  <div
+    class="modal fade transicao-modal"
+    id="modalregulamento"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="ModalLongTitle"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Regulamento</h5>
+        </div>
+        <div class="modal-body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book. It has survived not
+          only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s
+          with the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn bt-modal" data-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Modal Regulamento -->
+
+  <!-- Inicio Modal Créditos -->
+  <div
+    class="modal fade transicao-modal"
+    id="modalcredito"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="ModalLongTitle"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Créditos</h5>
+        </div>
+        <div class="modal-body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </div>
+        <div class="modal-body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </div>
+        <div class="modal-body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn bt-modal" data-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Modal Créditos -->
+
+  <!-- Inicio Modal Avaliação -->
+  <div
+    class="modal fade transicao-modal"
+    id="modalavaliacao"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="ModalLongTitle"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h5>1° Avaliação</h5>
+          <hr />
+          <h6 class="questao-modal">Questão 1</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry
+          </p>
+          <hr />
+          <h6 class="questao-modal">Questão 2</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry
+          </p>
+          <hr />
+          <h6 class="questao-modal">Questão 3</h6>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn bt-modal" data-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Modal Avaliação -->
+</body>
+<%- include ('./partials/footer.ejs') %>
+<%- include ('./partials/configure_footer.ejs') %>

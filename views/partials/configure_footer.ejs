@@ -1,0 +1,42 @@
+<!-- JQUERY, POPPER E BOOTSTRAP -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"
+></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+<!-- POPOVER -->
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
+
+
+<!--TXT DO RANGE (referencia salva no pc-->
+<script type="text/javascript" charset="utf-8">
+var myRange = document.querySelector('#myRange')
+var myValue = document.querySelector('#myValue')
+/*var myUnits = 'Você está aqui!';*/
+/*var off = myRange.offsetWidth / (parseInt(myRange.max) - parseInt(myRange.min));
+var px =  ((myRange.valueAsNumber - parseInt(myRange.min)) * off) - (myValue.offsetParent.offsetWidth);*/
+
+/*myValue.parentElement.style.left = px + 'px';
+  myValue.parentElement.style.top = myRange.offsetHeight + 'px';
+  myValue.innerHTML = myUnits;*/
+
+myRange.oninput = function () {
+  /*let px = ((myRange.valueAsNumber - parseInt(myRange.min)) * off) - (myValue.offsetWidth );
+  myValue.innerHTML = myUnits;
+  myValue.parentElement.style.left = px + 'px';*/
+}
+</script>
+
+</html>
